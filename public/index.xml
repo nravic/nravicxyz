@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nravic</title>
+    <link>http://nravic.xyz/</link>
+    <description>Recent content on nravic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Oct 2018 11:41:55 +0400</lastBuildDate>
+    
+	<atom:link href="http://nravic.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://nravic.xyz/about/</link>
+      <pubDate>Tue, 09 Oct 2018 11:41:55 +0400</pubDate>
+      
+      <guid>http://nravic.xyz/about/</guid>
+      <description>Hey, my name is Niranjan Ravichandra. I&amp;rsquo;m currently a senior at SUNY Buffalo studying Mechanical and Aerospace Engineering. I work in a few labs on campus, working on things ranging from machine learning and neuroevolution to satellite navigation and controls. I enjoy amateur olympic weightlifting, running, and jumping from hobby to hobby and interest to interest.
+I&amp;rsquo;ve been having trouble tracking all the stuff I get into; this blog should prove useful in that regard.</description>
+    </item>
+    
+  </channel>
+</rss>
