@@ -1,7 +1,7 @@
 ---
 title: "Solving Non Planar Two-Link Systems"
 date: 2018-10-12T01:02:30+04:00
-draft: true
+draft: false
 ---
 
 One of the things I'm working on at the [ADAMS](http://adams.eng.buffalo.edu/) lab at SUNY Buffalo is designing a miniature insect-inspired hexapod from the ground up, developing a controls architecture using neuroevolution algorithms written in-house to actually building it (eventually) with smart material actuators. 

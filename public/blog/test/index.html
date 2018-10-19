@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="author" content="Niranjan Ravichandra">
+		<meta name="description" content="nravic&#39;s personal blog">
+		<meta name="generator" content="Hugo 0.49" />
+		<title>Solving Non Planar Two-Link Systems &middot; nravic</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+		<link href="/index.xml" rel="alternate" type="application/rss+xml" title="nravic" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Solving Non Planar Two-Link Systems
+                    </h1>
+                    <h2 class="headline">
+                    Oct 12, 2018 01:02
+                    · 173 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                
+                <section id="post-body">
+                    <p>One of the things I&rsquo;m working on at the <a href="http://adams.eng.buffalo.edu/">ADAMS</a> lab at SUNY Buffalo is designing a miniature insect-inspired hexapod from the ground up, developing a controls architecture using neuroevolution algorithms written in-house to actually building it (eventually) with smart material actuators.</p>
+
+<p>Approaching the problem head on with a dynamic analysis fails, because the joints of the leg in my system are coupled. It fails more because I thought it was tedious and a waste of my time; I&rsquo;m sure with enough determination you could work around it. A post-doc at the lab suggested inverse kinematics. Most literature I found had direct solutions to simple planar two-link systems; which proved useless. I couldn&rsquo;t solve it directly (or the classical way), and instead opted for using <a href="https://www.wikiwand.com/en/Denavit%E2%80%93Hartenberg_parameters">Denavit-Hartenberg parameters</a>, the resulting equations of which are used to solve for joint angles.</p>
+
+<p>I previously compiled the derivation in LaTeX, and can&rsquo;t really figure out a simple way to render LaTeX in Hugo without spending a ridiculous amount of time on it. They&rsquo;re shown below as pngs.</p>
+
+<p><img src="/img/dh-0.png" alt="dh1" />
+<img src="/img/dh-1.png" alt="dh2" /></p>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/blog/genart/">Generative Art with Quil and Processing<aside class="dates">Oct 13 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/nravic">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/nravicc">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Niranjan Ravichandra
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+
+
+
+
+    </body>
+</html>

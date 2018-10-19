@@ -1,7 +1,7 @@
 ---
 title: "Generative Art with Quil and Processing"
 date: 2018-10-13T09:59:31+04:00
-draft: true
+draft: false
 ---
 
 I recently read an [article](https://www.artnome.com/news/2018/8/8/why-love-generative-art) on generative art. The space is incredible, and using controlled randomness to generate art seems like an amazing idea. I started looking at [Georg Nees'](https://www.wikiwand.com/en/Georg_Nees), and found my way to [Processing](https://processing.org). The gut instinct is always to look for a Python implementation, but I was unhappy with unweildly most were. I found [Quil](https://github.com/quil/quil) by chance, and fell in love. 

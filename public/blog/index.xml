@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on nravic</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on nravic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 Oct 2018 09:59:31 +0400</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generative Art with Quil and Processing</title>
+      <link>/blog/genart/</link>
+      <pubDate>Sat, 13 Oct 2018 09:59:31 +0400</pubDate>
+      
+      <guid>/blog/genart/</guid>
+      <description>I recently read an article on generative art. The space is incredible, and using controlled randomness to generate art seems like an amazing idea. I started looking at Georg Nees&amp;rsquo;, and found my way to Processing. The gut instinct is always to look for a Python implementation, but I was unhappy with unweildly most were. I found Quil by chance, and fell in love.
+Quil weilds the Processing API in one hand, and Clojure in the other, using some fantastic language abstractions to make generating art a breeeze.</description>
+    </item>
+    
+    <item>
+      <title>Solving Non Planar Two-Link Systems</title>
+      <link>/blog/test/</link>
+      <pubDate>Fri, 12 Oct 2018 01:02:30 +0400</pubDate>
+      
+      <guid>/blog/test/</guid>
+      <description>One of the things I&amp;rsquo;m working on at the ADAMS lab at SUNY Buffalo is designing a miniature insect-inspired hexapod from the ground up, developing a controls architecture using neuroevolution algorithms written in-house to actually building it (eventually) with smart material actuators.
+Approaching the problem head on with a dynamic analysis fails, because the joints of the leg in my system are coupled. It fails more because I thought it was tedious and a waste of my time; I&amp;rsquo;m sure with enough determination you could work around it.</description>
+    </item>
+    
+  </channel>
+</rss>

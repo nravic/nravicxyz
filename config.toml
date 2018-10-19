@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://nravic.xyz"
+baseurl = "/"
 languageCode = "en"
 title = "nravic"
 theme = "hugo-theme-cactus-plus"
@@ -11,7 +11,7 @@ hasCJKLanguage = false
 	description = "nravic's personal blog"
 	bio = "Personal blog"
 
-	twitter = "nravic"
+	twitter = "nravicc"
 
 	enableRSS = true
 	enableToc = true
@@ -64,5 +64,5 @@ hasCJKLanguage = false
 # Add additional social link entries underneath
 [social]
 	#facebook-square = "https://www.facebook.com/nodejh"
-	twitter-square = "https://www.twitter.com/nravic"
+	twitter-square = "https://www.twitter.com/nravicc"
 	github-square = "https://www.github.com/nravic"
